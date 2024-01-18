@@ -1,0 +1,423 @@
+header {
+    display: inline-block;
+}
+.paragraph {
+    font-size: 17px;
+}
+h2 {
+    margin:0px;
+    padding: 0px;
+
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(67, 67, 161);
+}
+#header_list {
+    display: flex;
+    list-style-type: none;
+}
+.search {
+    display: inline-block;
+    margin:0%;
+    padding-top: 25px;
+    width: 650px;
+}
+#searchForm {
+    padding: 22px;
+    margin-right: 150px;
+}
+#searchBox {
+    height: 20px;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#button, #lines {
+    height: 25px;
+    cursor: pointer;
+}
+#createAccount {
+    padding-top: 30px;
+    font-size: medium;
+    display:inline;
+    margin-right: 5px;
+}
+#logIn {
+    padding-top: 30px;
+    display: inline;
+    margin-right: 5px;
+}
+#wikiImage {
+    border-left: 15px;
+    margin-right: 50px;
+}
+#lines {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+#tools {
+    cursor: pointer;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 1000px;
+    box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.6);
+    padding: 12px 16px;
+    z-index: 1;
+    list-style-type: none;
+    padding: 1px;
+    border-style: ridge;
+}
+.dropdownList {
+    padding: 6px;
+}
+#dots{
+    padding-top: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.India {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#title {
+    width: 750px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.section1 {
+    flex-basis: 80%;
+    padding: 20px;
+}
+#list_section1 {
+    padding: 10px;
+    list-style-type: none;
+}
+#top,#etymology,#history,#geography,#biodiversity,#politics,#fesRelations,#economics,#dlr,#culture {
+    padding-top:5px;
+    padding-bottom:10px;
+}
+.section2 {
+    flex-basis: 20%;
+    padding: 20px;
+}
+#firstLine {
+    margin-top: 0px;
+}
+#hidden-texts {
+    display: none;
+    height: 100px;
+    width: 100px;
+    box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.6);
+    border-style: ridge;
+    background-color: #f9f9f9;
+}
+.secondTitle {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 25px;
+}
+.left-top {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 400px;
+    justify-content: left;
+}
+#article {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+#talk {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+.right-top {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+}
+#read {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+#source {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+    width: 100px;
+}
+#viewHistory {
+    margin-left: 0px;
+    margin-right: 15px;
+    width: 100px;
+}
+#tools {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+#secondLine {
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.thirdTitle, h5 {
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+.sample_label {
+    padding-bottom: 5px;
+}
+#sample-label {
+    margin-right: 550px;
+}
+#label-warning ,#history-label, #modern-history-label, #geography-label, #biodiversity-label, #politics-label, #government-label, #admin-label-one, #admin-label-two, #fes-label, #economy-label, #energy-label, #dlrLabel1, #dlrLabel2, #cultureLabel, #culture1, #cultureLabel2, #cultureLabel3, #cultureLabel4, #cultureLabel5, #cultureLabel6, #cultureLabel7, #cultureLabel8{
+    font-style: italic;
+    padding-left: 1.6em;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2_1 {
+    flex-basis: 80%;
+    margin-right: 10px;
+}
+.bold_word {
+    font-weight: bold;
+}
+.section2_2 {
+    flex-basis: 20%;
+    /* height: 4000px; */
+    margin-left: 10px;
+}
+.Table {
+    border-collapse: collapse;
+}
+#data0, #data1, #data2, #data3, #data4, #data5, #data6{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+}
+#data6 {
+    border-bottom-width: 0px;;
+}
+.data {
+    padding: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+}
+.merged-left-top {
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    margin-right: 0px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.merged-left-bottom {
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    margin-right: 0px;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+.merged-right-top {
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+.merged-right-bottom {
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.center-left{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.center-right {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.left {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+}
+.right {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-right: 0px;
+}
+.top {
+    border-width: 1px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+}
+.bottom {
+    border-width: 1px;
+    border-top-width: 0px;
+    padding-top: 0px;
+}
+.center {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.gap {
+    padding: 0px;
+    width: 10px;
+}
+#gap {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+}
+.mix-row {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+}
+.one-line {
+    margin: 0px;
+    border-width: 1px;
+}
+#flag {
+    margin: 5px,30px,5px,5px;
+    padding: 10px;
+}
+#emblem {
+    margin: 5px,5px,5px,30px;
+    padding:10px;
+}
+#audio1,#audio2 {
+    margin: 0px;
+    padding:0px;
+    height: 27px;
+}
+.left_align {
+    text-align: left;
+}
+.right_align {
+    text-align: right;
+}
+#religion-list {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#name-list {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.large {
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.image_with_para {
+    border-width: 1px;
+    padding: 0px;
+    overflow: hidden;
+}
+.left-image {
+    float: left;
+    margin-right: 10px;
+}
+.right-image {
+    float: right;
+    margin-left: 10px;
+}
+#sub1, #sub2, #sub3, #partLabel-1, #partLabel-2, #culture-label1{
+    margin-bottom: 5px;
+}
+#list_in_para {
+    padding-left: 0px;
+}
+.blocks {
+    display: flex;
+}
+ol {
+    margin-top: 5px;
+}
+.ol-title {
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.unionTerritories {
+    width: 265px;
+}
+
+.white {
+    background-color: white;
+}
+#hidden-button, #searchBox-hidden {
+    display: none;
+}
+.myLink{
+    color: rgb(67, 67, 161);
+    cursor: pointer;
+}
